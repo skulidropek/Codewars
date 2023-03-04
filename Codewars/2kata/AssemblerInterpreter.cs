@@ -5,6 +5,10 @@ using System.Text;
 
 namespace Codewars._2kata
 {
+    /// <summary>
+    /// 2 kyu Assembler interpreter (part II)
+    /// https://www.codewars.com/kata/58e61f3d8ff24f774400002c
+    /// </summary>
     public class AssemblerInterpreter
     {
         public static string RemoveSpace(string str)

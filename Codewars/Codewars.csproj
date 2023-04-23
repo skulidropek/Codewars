@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,11 +46,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2kata\AssemblerInterpreter.cs" />
+    <Compile Include="2kata\Evaluate.cs" />
+    <Compile Include="3kata\MyBEDMASApprovedCalculator.cs" />
     <Compile Include="4kata\HumanTimeFormat.cs" />
+    <Compile Include="4kata\LargeFactorials.cs" />
     <Compile Include="4kata\Runes.cs" />
+    <Compile Include="4kata\StripCommentsSolution.cs" />
+    <Compile Include="4kata\SumStringsAsNumbers.cs" />
     <Compile Include="5kata\SimpleAssembler.cs" />
+    <Compile Include="6kata\BinaryToTextASCIIConversion.cs" />
+    <Compile Include="6kata\Catalan.cs" />
+    <Compile Include="6kata\CountTheSmileyFaces.cs" />
+    <Compile Include="6kata\IsANumberPrime.cs" />
+    <Compile Include="7kata\Factorial.cs" />
+    <Compile Include="7kata\FindTheIndexOfTheSecondOccurrenceOfALetterInString.cs" />
+    <Compile Include="7kata\FindTheStrayNumber.cs" />
+    <Compile Include="6kata\Findtheuniquenumber.cs" />
     <Compile Include="6kata\MovingZerosToTheEnd.cs" />
+    <Compile Include="7kata\BubblesortOnce.cs" />
     <Compile Include="7kata\HighestAndLowest.cs" />
+    <Compile Include="8kata\RemoveFirstAndLastCharacter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="3kata\Spiralizor.cs" />

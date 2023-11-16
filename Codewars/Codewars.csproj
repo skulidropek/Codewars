@@ -47,17 +47,23 @@
   <ItemGroup>
     <Compile Include="2kata\AssemblerInterpreter.cs" />
     <Compile Include="2kata\Evaluate.cs" />
+    <Compile Include="3kata\BattleshipFieldValidator.cs" />
+    <Compile Include="3kata\BinomialExpansion.cs" />
     <Compile Include="3kata\MyBEDMASApprovedCalculator.cs" />
+    <Compile Include="3kata\PrimeStreaming.cs" />
     <Compile Include="4kata\HumanTimeFormat.cs" />
     <Compile Include="4kata\LargeFactorials.cs" />
     <Compile Include="4kata\Runes.cs" />
     <Compile Include="4kata\StripCommentsSolution.cs" />
     <Compile Include="4kata\SumStringsAsNumbers.cs" />
+    <Compile Include="5kata\NotVerySecure.cs" />
     <Compile Include="5kata\SimpleAssembler.cs" />
     <Compile Include="6kata\BinaryToTextASCIIConversion.cs" />
     <Compile Include="6kata\Catalan.cs" />
     <Compile Include="6kata\CountTheSmileyFaces.cs" />
     <Compile Include="6kata\IsANumberPrime.cs" />
+    <Compile Include="6kata\NumberFormat.cs" />
+    <Compile Include="7kata\DisemvowelTrolls.cs" />
     <Compile Include="7kata\Factorial.cs" />
     <Compile Include="7kata\FindTheIndexOfTheSecondOccurrenceOfALetterInString.cs" />
     <Compile Include="7kata\FindTheStrayNumber.cs" />

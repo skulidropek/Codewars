@@ -41,48 +41,42 @@ namespace Codewars
 
 		static void Main(string[] args)
         {
-			//Console.WriteLine("Введите количество элементов");
-			//GetDateTime("04:48");
-			//GetDateTime("01:33");
-			//GetDateTime("00:26");
-			//GetDateTime("01:19");
+            Console.WriteLine(BinomialExpansion.Expand("(-5m+3)^2"));
 
-			//Draw(BubblesortOnce.BubbleSortOnce(new int[] { 3, 2, 1 }));
+            //Task.Run(() =>
+            //{
+            //	bool arra1;
+            //	Stopwatch stopwatch2 = new Stopwatch();
+            //	stopwatch2.Start();
+            //	arra1 = IsANumberPrime.IsPrime(int.MaxValue);
+            //	stopwatch2.Stop();
+            //	Console.WriteLine(arra1);
+            //	Console.WriteLine($"Время было затрачено {stopwatch2.ElapsedMilliseconds} милисекунд");
+            //});
 
-			Task.Run(() =>
-			{
-				bool arra1;
-				Stopwatch stopwatch2 = new Stopwatch();
-				stopwatch2.Start();
-				arra1 = IsANumberPrime.IsPrime(int.MaxValue);
-				stopwatch2.Stop();
-				Console.WriteLine(arra1);
-				Console.WriteLine($"Время было затрачено {stopwatch2.ElapsedMilliseconds} милисекунд");
-			});
-		
 
-			//Task.Run(() =>
-			//{
-			//	string arra;
-			//	Stopwatch stopwatch = new Stopwatch();
-			//	stopwatch.Start();
-			//	arra = Evaluate.eval("2 + 5 ^ 2 + 2");
-			//	stopwatch.Stop();
-			//	Console.WriteLine(arra);
+            //Task.Run(() =>
+            //{
+            //	string arra;
+            //	Stopwatch stopwatch = new Stopwatch();
+            //	stopwatch.Start();
+            //	arra = Evaluate.eval("2 + 5 ^ 2 + 2");
+            //	stopwatch.Stop();
+            //	Console.WriteLine(arra);
 
-			//	Console.WriteLine($"Время было затрачено на новый алгоритм {stopwatch.ElapsedMilliseconds} милисекунд");
-			//});
-		
+            //	Console.WriteLine($"Время было затрачено на новый алгоритм {stopwatch.ElapsedMilliseconds} милисекунд");
+            //});
 
-			
-			//Stopwatch stopwatch1 = new Stopwatch();
-			//stopwatch1.Start();
-			//arra = Catalan.catalan(number);
-			//stopwatch1.Stop();
-			//Console.WriteLine(arra);
 
-			//Console.WriteLine($"Время было затрачено на рекурсивный алгоритм {stopwatch1.ElapsedMilliseconds} милисекунд");
-			Console.ReadKey();
+
+            //Stopwatch stopwatch1 = new Stopwatch();
+            //stopwatch1.Start();
+            //arra = Catalan.catalan(number);
+            //stopwatch1.Stop();
+            //Console.WriteLine(arra);
+
+            //Console.WriteLine($"Время было затрачено на рекурсивный алгоритм {stopwatch1.ElapsedMilliseconds} милисекунд");
+            Console.ReadKey();
         }
 
     }

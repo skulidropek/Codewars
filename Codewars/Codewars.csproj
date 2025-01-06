@@ -71,6 +71,7 @@
     <Compile Include="6kata\MovingZerosToTheEnd.cs" />
     <Compile Include="7kata\BubblesortOnce.cs" />
     <Compile Include="7kata\HighestAndLowest.cs" />
+    <Compile Include="8kata\DollarsAndCents.cs" />
     <Compile Include="8kata\RemoveFirstAndLastCharacter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

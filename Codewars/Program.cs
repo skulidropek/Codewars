@@ -19,65 +19,10 @@ namespace Codewars
 {
     internal class Program
     {
-        static DateTime dateTime = new DateTime();
-        public static void GetDateTime(string date)
-        {
-			var args1 = date.Split(':');
-
-			int hours1 = int.Parse(args1[0]);
-			int minus1 = int.Parse(args1[1]);
-
-			dateTime = dateTime.AddHours(hours1).AddMinutes(minus1);
-		}
-
-
-        public static void Draw<T>(IEnumerable<T> values)
-        {
-            foreach(var value in values)
-            {
-                Console.WriteLine(value);
-            }
-        }
-
 		static void Main(string[] args)
         {
             Console.WriteLine(BinomialExpansion.Expand("(-5m+3)^2"));
-
-            //Task.Run(() =>
-            //{
-            //	bool arra1;
-            //	Stopwatch stopwatch2 = new Stopwatch();
-            //	stopwatch2.Start();
-            //	arra1 = IsANumberPrime.IsPrime(int.MaxValue);
-            //	stopwatch2.Stop();
-            //	Console.WriteLine(arra1);
-            //	Console.WriteLine($"Время было затрачено {stopwatch2.ElapsedMilliseconds} милисекунд");
-            //});
-
-
-            //Task.Run(() =>
-            //{
-            //	string arra;
-            //	Stopwatch stopwatch = new Stopwatch();
-            //	stopwatch.Start();
-            //	arra = Evaluate.eval("2 + 5 ^ 2 + 2");
-            //	stopwatch.Stop();
-            //	Console.WriteLine(arra);
-
-            //	Console.WriteLine($"Время было затрачено на новый алгоритм {stopwatch.ElapsedMilliseconds} милисекунд");
-            //});
-
-
-
-            //Stopwatch stopwatch1 = new Stopwatch();
-            //stopwatch1.Start();
-            //arra = Catalan.catalan(number);
-            //stopwatch1.Stop();
-            //Console.WriteLine(arra);
-
-            //Console.WriteLine($"Время было затрачено на рекурсивный алгоритм {stopwatch1.ElapsedMilliseconds} милисекунд");
             Console.ReadKey();
         }
-
     }
 }
